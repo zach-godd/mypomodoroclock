@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pythonprojects.iml" filepath="$PROJECT_DIR$/.idea/pythonprojects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mypomodoroclock.iml" filepath="$PROJECT_DIR$/.idea/mypomodoroclock.iml" />
     </modules>
   </component>
 </project>
