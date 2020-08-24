@@ -1,0 +1,87 @@
+.app {
+  text-align: center;
+  background-color: #43464b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: Segoue UI;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 5px;
+  display: inline-block;
+}
+
+.dotComplete{
+  height: 25px;
+  width: 25px;
+  margin: 5px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.time {
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+.button {
+  padding: .6rem 1.5rem;
+  margin: .4rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .8rem;
+  border-style: groove;
+}
+
+.button:focus {
+  outline-width: 0;
+}
+
+.button-primary-active:hover {
+  background-color: darkred;
+  border: 1px solid black;
+}
+
+.button-primary-inactive:hover {
+  background-color: darkgreen;
+  border: 1px solid black;
+}
+
+.button-primary-active {
+  background-color: red;
+  border: 1px solid darkgrey;
+  color: white;
+}
+
+.button-primary-inactive {
+  background-color: green;
+  border: 1px solid darkgrey;
+  color: white;
+}
+
+.button-reset:hover {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.button-reset{
+  background-color: white;
+  border: 1px solid darkgrey;
+  color:black;
+}
+.about-text{
+  font-size: large;
+  padding-left: 10%;
+  padding-right: 10%;
+}
