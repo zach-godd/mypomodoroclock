@@ -1,9 +1,10 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import App from './App';
+import '@testing-library/jest-dom'
+import Timer from "./Timer.js";
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+//https://testing-library.com/docs/react-testing-library/example-intro
+test('renders timer; tests if Pomodoro Clock renders', () => {
+  const { getByText } = render(<Timer />);
+  const linkElement = getByText(/Pomodoro Clock/i);
 });
